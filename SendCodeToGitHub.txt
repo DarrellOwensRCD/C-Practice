@@ -1,0 +1,11 @@
+Stage all changes for commit with git add -A. This tells git to start 
+tracking the files, but doesn't yet treat them as an official part of 
+the local repository history.
+Verify that all of your desired changes have been staged for committing 
+with git status. We should see the README.md file listed under "Changes 
+to be committed".
+Commit the changes, recording README.md as an official part of history 
+with git commit -m "Add README.md". You can change the message to 
+anything you like.
+Push the updated, official history to the GitHub remote repository with 
+git push origin master.
